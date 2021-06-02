@@ -36,7 +36,7 @@ module.exports = function(){
     }
 
         // 0 = rock , 1 = paper , and 2 = scissors
-        let computerSelection = Math.floor(Math.random() = 3);
+        let computerSelection = Math.floor(Math.random() == 3);
 
         if(userSelection == computerSelection){
 
